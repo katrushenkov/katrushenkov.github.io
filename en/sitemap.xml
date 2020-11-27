@@ -3,197 +3,197 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/posts/2014/09/creating-a-new-theme/</loc>
+    <loc>https://katrushenkov.github.io/posts/2014/09/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/"
+                href="https://katrushenkov.github.io/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/posts/2014/09/creating-a-new-theme/"
+                href="https://katrushenkov.github.io/posts/2014/09/creating-a-new-theme/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
+    <loc>https://katrushenkov.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/posts/2014/03/migrer-vers-hugo-depuis-jekyll/"
+                href="https://katrushenkov.github.io/fr/posts/2014/03/migrer-vers-hugo-depuis-jekyll/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/posts/2014/03/migrate-to-hugo-from-jekyll/"
+                href="https://katrushenkov.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/posts/2020/11/first-post/</loc>
+    <loc>https://katrushenkov.github.io/posts/2020/11/first-post/</loc>
     <lastmod>2020-11-27T19:59:35+10:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://katrushenkov.github.io/</loc>
     <lastmod>2020-11-27T19:59:35+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/"
+                href="https://katrushenkov.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://katrushenkov.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://katrushenkov.github.io/posts/</loc>
     <lastmod>2020-11-27T19:59:35+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/posts/"
+                href="https://katrushenkov.github.io/fr/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/posts/"
+                href="https://katrushenkov.github.io/posts/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://katrushenkov.github.io/tags/</loc>
     <lastmod>2020-11-27T19:59:35+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/tags/"
+                href="https://katrushenkov.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://katrushenkov.github.io/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/tags/untagged/</loc>
+    <loc>https://katrushenkov.github.io/tags/untagged/</loc>
     <lastmod>2020-11-27T19:59:35+10:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/series/hugo-101/</loc>
+    <loc>https://katrushenkov.github.io/series/hugo-101/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/series/</loc>
+    <loc>https://katrushenkov.github.io/series/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/series/"
+                href="https://katrushenkov.github.io/fr/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/series/"
+                href="https://katrushenkov.github.io/series/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://katrushenkov.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/2014/04/hugo-template-primer/</loc>
+    <loc>https://katrushenkov.github.io/posts/2014/04/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/"
+                href="https://katrushenkov.github.io/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/posts/2014/04/hugo-template-primer/"
+                href="https://katrushenkov.github.io/posts/2014/04/hugo-template-primer/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://katrushenkov.github.io/categories/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/categories/"
+                href="https://katrushenkov.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://katrushenkov.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/categories/development/</loc>
+    <loc>https://katrushenkov.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/development/</loc>
+    <loc>https://katrushenkov.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/2014/04/getting-started-with-hugo/</loc>
+    <loc>https://katrushenkov.github.io/posts/2014/04/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://example.com/fr/posts/2014/04/d%C3%A9buter-avec-hugo/"
+                href="https://katrushenkov.github.io/fr/posts/2014/04/d%C3%A9buter-avec-hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/posts/2014/04/getting-started-with-hugo/"
+                href="https://katrushenkov.github.io/posts/2014/04/getting-started-with-hugo/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/tags/go/</loc>
+    <loc>https://katrushenkov.github.io/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/golang/</loc>
+    <loc>https://katrushenkov.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/categories/golang/</loc>
+    <loc>https://katrushenkov.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/hugo/</loc>
+    <loc>https://katrushenkov.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/templates/</loc>
+    <loc>https://katrushenkov.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/themes/</loc>
+    <loc>https://katrushenkov.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   

@@ -72,14 +72,14 @@ disableHugoGeneratorInject = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  `disableReadOtherPosts = false
+  disableReadOtherPosts = false
 
   # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
+  #
+  # This options enables the theme toggle for the theme.
+  # Per default, this option is off.
+  # The theme is respecting the prefers-color-scheme of the operating systeme.
+  # With this option on, the page user is able to set the scheme he wants.
   enableThemeToggle = false
 
   # Sharing buttons
@@ -150,11 +150,11 @@ disableHugoGeneratorInject = false
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
+  # Commento is more than just a comments widget you can embed —
+  # it’s a return to the roots of the internet.
+  # An internet without the tracking and invasions of privacy.
+  # An internet that is simple and lightweight.
+  # An internet that is focused on interesting discussions, not ads.
   # A better internet.
   # Uncomment this to enable Commento.
   #
@@ -199,10 +199,18 @@ disableHugoGeneratorInject = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
+    #[languages.en.params.logo]
+    #  logoText = "hello friend ng"
+    #  logoHomeLink = "/"
+
 #  [languages.fr]
 #    subtitle  = "Hello Friend NG Theme"
 #    weight    = 2
 #    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
 [menu]
   [[menu.main]]

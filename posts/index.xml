@@ -5,8 +5,7 @@
         <description>Recent content in Posts on Welcome back!</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-        <lastBuildDate>Sun, 28 Mar 2021 11:01:38 +1000</lastBuildDate>
+        <lastBuildDate>Sun, 08 May 2022 21:59:52 +1000</lastBuildDate>
         <atom:link href="https://katrushenkov.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
@@ -967,6 +966,21 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 <p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
 <h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
 <p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>20220508 Test Port</title>
+            <link>https://katrushenkov.github.io/posts/2022/05/20220508-test-port/</link>
+            <pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
+            
+            <guid>https://katrushenkov.github.io/posts/2022/05/20220508-test-port/</guid>
+            <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3</description>
+            <content type="html"><![CDATA[<h1 id="test-1">Test 1</h1>
+<h2 id="test-2">Test 2</h2>
+<p>[ ] - list 1
+[ ] - list 2
+[x] - list 3</p>
 ]]></content>
         </item>
         

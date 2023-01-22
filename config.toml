@@ -1,5 +1,5 @@
 baseURL = "https://katrushenkov.github.io"
-title   = "Welcome!"
+title   = "Welcome back!"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -80,7 +80,7 @@ disableHugoGeneratorInject = false
   # Per default, this option is off.
   # The theme is respecting the prefers-color-scheme of the operating systeme.
   # With this option on, the page user is able to set the scheme he wants.
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -94,7 +94,7 @@ disableHugoGeneratorInject = false
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+#  enableGlobalLanguageMenu = true
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -123,14 +123,14 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = true
     rss = true
-    copyright = true
+    copyright = false
     author = true
 
     topText = []
-    bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
-    ]
+#    bottomText = [
+#      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+#      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+#    ]
 
   # Colors for favicons
   #
@@ -193,11 +193,11 @@ disableHugoGeneratorInject = false
     name = "telegram"
     url  = "https://t.me/katrushenkov"
 
-[languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#[languages]
+#  [languages.en]
+#    subtitle  = "Hello Friend NG Theme"
+#    weight    = 1
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
     #[languages.en.params.logo]
     #  logoText = "hello friend ng"

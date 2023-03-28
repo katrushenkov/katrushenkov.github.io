@@ -6,7 +6,7 @@ linktitle: Creating a New Theme
 type:
 - post
 - posts
-title: Creating a New Theme
+title: Creating a New Theme ksm2
 weight: 10
 series:
 - Hugo 101

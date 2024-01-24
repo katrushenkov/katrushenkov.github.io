@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://katrushenkov.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Création d&#39;un nouveau thème</title>
-      <link>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/</link>
+      <title>Création d&#39;un nouveau thème ksm</title>
+      <link>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/</guid>
+      <guid>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</guid>
       <description>Introduction Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.
 Nous allons commencer par créer un nouveau site avec un modèle très basique.</description>
     </item>

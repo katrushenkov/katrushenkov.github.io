@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -48,6 +48,9 @@ disableHugoGeneratorInject = false
   series   = "series"
 
 [params]
+  [params.author]
+    name = "Sergey Katrushenkov"
+
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
@@ -55,7 +58,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   #
-  description = "Nice theme for homepages and blogs"
+  description = "Personal blog"
   keywords = ""
   images = [""]
 
@@ -121,7 +124,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content.
   #
   [params.footer]
-    trademark = true
+    trademark = 2024
     rss = true
     copyright = false
     author = true

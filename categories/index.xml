@@ -6,60 +6,50 @@
     <description>Recent content in Categories on Welcome back!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://katrushenkov.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://katrushenkov.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo ksm</title>
       <link>https://katrushenkov.github.io/categories/hugo-ksm/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/categories/hugo-ksm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Hugo</title>
       <link>https://katrushenkov.github.io/categories/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/categories/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Development</title>
       <link>https://katrushenkov.github.io/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/categories/development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Go</title>
       <link>https://katrushenkov.github.io/categories/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/categories/go/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>golang</title>
       <link>https://katrushenkov.github.io/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/categories/golang/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Jekyll</title>
       <link>https://katrushenkov.github.io/categories/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/categories/jekyll/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -6,69 +6,64 @@
     <description>Recent content in Tags on Welcome back!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2022 21:59:52 +1000</lastBuildDate><atom:link href="https://katrushenkov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 22 Jan 2023 21:59:52 +1000</lastBuildDate>
+    <atom:link href="https://katrushenkov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
       <link>https://katrushenkov.github.io/tags/test/</link>
-      <pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
-      
+      <pubDate>Sun, 22 Jan 2023 21:59:52 +1000</pubDate>
       <guid>https://katrushenkov.github.io/tags/test/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>untagged</title>
+      <link>https://katrushenkov.github.io/tags/untagged/</link>
+      <pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
+      <guid>https://katrushenkov.github.io/tags/untagged/</guid>
+      <description></description>
+    </item>
     <item>
       <title>development</title>
       <link>https://katrushenkov.github.io/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>go</title>
       <link>https://katrushenkov.github.io/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/tags/go/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>golang</title>
       <link>https://katrushenkov.github.io/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/tags/golang/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>hugo</title>
       <link>https://katrushenkov.github.io/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>templates</title>
       <link>https://katrushenkov.github.io/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/tags/templates/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>themes</title>
       <link>https://katrushenkov.github.io/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://katrushenkov.github.io/tags/themes/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

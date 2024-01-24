@@ -6,15 +6,29 @@
     <description>Recent content in Blogs on Welcome back!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2022 21:59:52 +1000</lastBuildDate><atom:link href="https://katrushenkov.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 22 Jan 2023 21:59:52 +1000</lastBuildDate>
+    <atom:link href="https://katrushenkov.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>202301022 Test Mid</title>
+      <link>https://katrushenkov.github.io/blog/20230122-test-new/</link>
+      <pubDate>Sun, 22 Jan 2023 21:59:52 +1000</pubDate>
+      <guid>https://katrushenkov.github.io/blog/20230122-test-new/</guid>
+      <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3&#xA;Test 3 Test 4 </description>
+    </item>
     <item>
       <title>20220508 Test Port</title>
       <link>https://katrushenkov.github.io/blog/20220508-test-port/</link>
       <pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
-      
       <guid>https://katrushenkov.github.io/blog/20220508-test-port/</guid>
-      <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3</description>
+      <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3&#xA;Test post 8.05.2022</description>
     </item>
-    
+    <item>
+      <title>Testpost</title>
+      <link>https://katrushenkov.github.io/blog/testpost/</link>
+      <pubDate>Sun, 28 Mar 2021 11:08:33 +1000</pubDate>
+      <guid>https://katrushenkov.github.io/blog/testpost/</guid>
+      <description>rem new new new3 </description>
+    </item>
   </channel>
 </rss>

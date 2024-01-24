@@ -5,7 +5,8 @@
         <description>Recent content in Posts on Welcome back!</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+        <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+        <lastBuildDate>Sun, 22 Jan 2023 20:38:46 +1000</lastBuildDate>
         <atom:link href="https://katrushenkov.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
@@ -970,6 +971,20 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
         </item>
         
         <item>
+            <title>Testnewarticle2222</title>
+            <link>https://katrushenkov.github.io/posts/2023/01/testnewarticle2222/</link>
+            <pubDate>Sun, 22 Jan 2023 20:38:46 +1000</pubDate>
+            
+            <guid>https://katrushenkov.github.io/posts/2023/01/testnewarticle2222/</guid>
+            <description>new bbbbbbb aaaaa fdsafdsf</description>
+            <content type="html"><![CDATA[<h1 id="new">new</h1>
+<h1 id="bbbbbbb">bbbbbbb</h1>
+<h1 id="aaaaa">aaaaa</h1>
+<p>fdsafdsf</p>
+]]></content>
+        </item>
+        
+        <item>
             <title>Check 2023</title>
             <link>https://katrushenkov.github.io/posts/2023/01/check-2023/</link>
             <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
@@ -1829,11 +1844,11 @@ $ vi themes/zafta/layouts/_default/single.html
         </item>
         
         <item>
-            <title>20220508 Test Port</title>
-            <link>https://katrushenkov.github.io/posts/2022/05/20220508-test-port/</link>
-            <pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
+            <title>20220606 Test Port</title>
+            <link>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</link>
+            <pubDate>Mon, 06 Jun 2022 21:59:52 +1000</pubDate>
             
-            <guid>https://katrushenkov.github.io/posts/2022/05/20220508-test-port/</guid>
+            <guid>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</guid>
             <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3</description>
             <content type="html"><![CDATA[<h1 id="test-1">Test 1</h1>
 <h2 id="test-2">Test 2</h2>
@@ -1841,6 +1856,40 @@ $ vi themes/zafta/layouts/_default/single.html
 [ ] - list 2
 [x] - list 3</p>
 ]]></content>
+        </item>
+        
+        <item>
+            <title>20210320 Post</title>
+            <link>https://katrushenkov.github.io/posts/2021/03/20210320-post/</link>
+            <pubDate>Sun, 28 Mar 2021 11:01:38 +1000</pubDate>
+            
+            <guid>https://katrushenkov.github.io/posts/2021/03/20210320-post/</guid>
+            <description>Test 4 Test 5 </description>
+            <content type="html"><![CDATA[<h2 id="test-4">Test 4</h2>
+<h3 id="test-5">Test 5</h3>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Bash</title>
+            <link>https://katrushenkov.github.io/posts/2021/02/bash/</link>
+            <pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
+            
+            <guid>https://katrushenkov.github.io/posts/2021/02/bash/</guid>
+            <description>test 1 test 2 </description>
+            <content type="html"><![CDATA[<h2 id="test-1">test 1</h2>
+<h3 id="test-2">test 2</h3>
+]]></content>
+        </item>
+        
+        <item>
+            <title>First Post</title>
+            <link>https://katrushenkov.github.io/posts/2020/11/first-post/</link>
+            <pubDate>Fri, 27 Nov 2020 19:59:35 +1000</pubDate>
+            
+            <guid>https://katrushenkov.github.io/posts/2020/11/first-post/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
         </item>
         
         <item>

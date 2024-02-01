@@ -1,5 +1,5 @@
 baseURL = "https://katrushenkov.github.io"
-title   = "Welcome back!"
+title   = "Personal blog"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 

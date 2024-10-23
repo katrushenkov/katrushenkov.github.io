@@ -8,6 +8,7 @@ featuredpath = "date"
 linktitle = ""
 title = "Création d'un nouveau thème ksm"
 slug = "Creation d'un nouveau theme"
+toc = true
 type = "post"
 +++
 

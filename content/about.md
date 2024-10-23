@@ -1,12 +1,14 @@
 +++
 title = "About"
 date = "2014-04-09"
+description = "about this site"
+slug = "about time"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "Sergey Katrushenkov"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Hugo22 is the **world’s fastest framework for building websites**. It is written in Go.
 
 It makes use of a variety of open source projects including:
 

@@ -4,13 +4,13 @@
     <title>Categories on Personal blog</title>
     <link>https://katrushenkov.github.io/categories/</link>
     <description>Recent content in Categories on Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://katrushenkov.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo ksm</title>
+      <title>Hugo Ksm</title>
       <link>https://katrushenkov.github.io/categories/hugo-ksm/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/categories/hugo-ksm/</guid>
@@ -38,7 +38,7 @@
       <description></description>
     </item>
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://katrushenkov.github.io/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/categories/golang/</guid>

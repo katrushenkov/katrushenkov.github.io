@@ -4,7 +4,7 @@
     <title>Go on Personal blog</title>
     <link>https://katrushenkov.github.io/categories/go/</link>
     <description>Recent content in Go on Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://katrushenkov.github.io/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</guid>
-      <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.&#xA;Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
+      <description>&lt;p&gt;Hugo utilise l&amp;rsquo;excellente librairie &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; pour&#xA;son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit&#xA;nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour&#xA;créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de&#xA;modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de&#xA;similitudes avec les modèles go.&lt;/p&gt;&#xA;&lt;p&gt;Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates. La&#xA;&lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;documentation go&lt;/a&gt; fourni plus de détails.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

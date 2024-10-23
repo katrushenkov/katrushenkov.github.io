@@ -4,7 +4,7 @@
     <title>Personal blog</title>
     <link>https://katrushenkov.github.io/</link>
     <description>Recent content on Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 22 Jan 2023 21:59:52 +1000</lastBuildDate>
@@ -14,70 +14,133 @@
       <link>https://katrushenkov.github.io/posts/2014/09/creating-a-new-theme-ksm2/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2014/09/creating-a-new-theme-ksm2/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&#xA;We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Migrate to Hugo from Jekyll</title>
       <link>https://katrushenkov.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like&#xA;▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become&#xA;▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ images/&#xA;        logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ static/&#xA;        ▾ images/&#xA;            logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>202301022 Test Mid</title>
       <link>https://katrushenkov.github.io/blog/20230122-test-new/</link>
       <pubDate>Sun, 22 Jan 2023 21:59:52 +1000</pubDate>
       <guid>https://katrushenkov.github.io/blog/20230122-test-new/</guid>
-      <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3&#xA;Test 3 Test 4 </description>
+      <description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;&#xA;&lt;h2 id=&#34;test-3&#34;&gt;Test 3&lt;/h2&gt;&#xA;&lt;h2 id=&#34;test-4&#34;&gt;Test 4&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Testnewarticle2222</title>
       <link>https://katrushenkov.github.io/posts/2023/01/testnewarticle2222/</link>
       <pubDate>Sun, 22 Jan 2023 20:38:46 +1000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2023/01/testnewarticle2222/</guid>
-      <description>new bbbbbbb aaaaa fdsafdsf</description>
+      <description>&lt;h1 id=&#34;new&#34;&gt;new&lt;/h1&gt;&#xA;&lt;h1 id=&#34;bbbbbbb&#34;&gt;bbbbbbb&lt;/h1&gt;&#xA;&lt;h1 id=&#34;aaaaa&#34;&gt;aaaaa&lt;/h1&gt;&#xA;&lt;p&gt;fdsafdsf&lt;/p&gt;</description>
     </item>
     <item>
       <title>Check 2023</title>
       <link>https://katrushenkov.github.io/posts/2023/01/check-2023/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2023/01/check-2023/</guid>
-      <description>Introduction Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&#xA;Nous allons commencer par créer un nouveau site avec un modèle très basique.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;&#xA;&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description>
     </item>
     <item>
       <title>20220606 Test Port</title>
       <link>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</link>
       <pubDate>Mon, 06 Jun 2022 21:59:52 +1000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</guid>
-      <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3</description>
+      <description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>20220508 Test Port</title>
+      <link>https://katrushenkov.github.io/blog/20210101-happy-new-year/</link>
+      <pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
+      <guid>https://katrushenkov.github.io/blog/20210101-happy-new-year/</guid>
+      <description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;&#xA;&lt;p&gt;Test post 8.05.2022&lt;/p&gt;</description>
     </item>
     <item>
       <title>20220508 Test Port</title>
       <link>https://katrushenkov.github.io/blog/20220508-test-port/</link>
       <pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
       <guid>https://katrushenkov.github.io/blog/20220508-test-port/</guid>
-      <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3&#xA;Test post 8.05.2022</description>
+      <description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;&#xA;&lt;p&gt;Test post 8.05.2022&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testpost</title>
       <link>https://katrushenkov.github.io/blog/testpost/</link>
       <pubDate>Sun, 28 Mar 2021 11:08:33 +1000</pubDate>
       <guid>https://katrushenkov.github.io/blog/testpost/</guid>
-      <description>rem new new new3 </description>
+      <description>&lt;h1 id=&#34;rem&#34;&gt;rem&lt;/h1&gt;&#xA;&lt;h1 id=&#34;new&#34;&gt;new&lt;/h1&gt;&#xA;&lt;h1 id=&#34;new-1&#34;&gt;new&lt;/h1&gt;&#xA;&lt;h1 id=&#34;new3&#34;&gt;new3&lt;/h1&gt;</description>
     </item>
     <item>
       <title>20210320 Post</title>
       <link>https://katrushenkov.github.io/posts/2021/03/20210320-post/</link>
       <pubDate>Sun, 28 Mar 2021 11:01:38 +1000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2021/03/20210320-post/</guid>
-      <description>Test 4 Test 5 </description>
+      <description>&lt;h2 id=&#34;test-4&#34;&gt;Test 4&lt;/h2&gt;&#xA;&lt;h3 id=&#34;test-5&#34;&gt;Test 5&lt;/h3&gt;</description>
     </item>
     <item>
       <title>Bash</title>
       <link>https://katrushenkov.github.io/posts/2021/02/bash/</link>
       <pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2021/02/bash/</guid>
-      <description>test 1 test 2 </description>
+      <description>&lt;h2 id=&#34;test-1&#34;&gt;test 1&lt;/h2&gt;&#xA;&lt;h3 id=&#34;test-2&#34;&gt;test 2&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>First Post</title>
+      <link>https://katrushenkov.github.io/posts/2020/11/first-post/</link>
+      <pubDate>Fri, 27 Nov 2020 19:59:35 +1000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2020/11/first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Création d&#39;un nouveau thème ksm</title>
+      <link>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;&#xA;&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://katrushenkov.github.io/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/about/</guid>
+      <description>&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;&#xA;&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/russross/blackfriday&#34;&gt;https://github.com/russross/blackfriday&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/alecthomas/chroma&#34;&gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/muesli/smartcrop&#34;&gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://katrushenkov.github.io/posts/2014/04/hugo-template-primer/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2014/04/hugo-template-primer/</guid>
+      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in Go templates.&lt;/p&gt;&#xA;&lt;p&gt;This document is a brief primer on using Go templates. The &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;Go docs&lt;/a&gt;&#xA;provide more details.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Débuter avec Hugo</title>
+      <link>https://katrushenkov.github.io/posts/2014/04/d%C3%A9buter-avec-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2014/04/d%C3%A9buter-avec-hugo/</guid>
+      <description>&lt;h2 id=&#34;étape-1-installer-hugo&#34;&gt;Étape 1. Installer Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Allez sur la page de téléchargements de&#xA;&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo&lt;/a&gt; et téléchargez la version&#xA;appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt;/p&gt;&#xA;&lt;p&gt;Sauvegardez le fichier téléchargé à un endroit précis, afin de l&amp;rsquo;utiliser dans&#xA;l&amp;rsquo;étape suivante.&lt;/p&gt;&#xA;&lt;p&gt;Des informations plus complètes sont disponibles sur la page&#xA;&lt;a href=&#34;https://katrushenkov.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://katrushenkov.github.io/posts/2014/04/getting-started-with-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2014/04/getting-started-with-hugo/</guid>
+      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo releases&lt;/a&gt; and download the&#xA;appropriate version for your OS and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Install Hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;Hugo repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Go into the repo&lt;/li&gt;&#xA;&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;&#xA;&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction aux modèles (Hu)go</title>
+      <link>https://katrushenkov.github.io/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</guid>
+      <description>&lt;p&gt;Hugo utilise l&amp;rsquo;excellente librairie &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; pour&#xA;son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit&#xA;nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour&#xA;créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de&#xA;modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de&#xA;similitudes avec les modèles go.&lt;/p&gt;&#xA;&lt;p&gt;Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates. La&#xA;&lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;documentation go&lt;/a&gt; fourni plus de détails.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migrer vers Hugo depuis Jekyll</title>
+      <link>https://katrushenkov.github.io/posts/2014/03/migrer-vers-hugo-depuis-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://katrushenkov.github.io/posts/2014/03/migrer-vers-hugo-depuis-jekyll/</guid>
+      <description>&lt;h2 id=&#34;déplacez-le-contenu-statique-vers-static&#34;&gt;Déplacez le contenu statique vers &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll a une règle comme quoi tout répertoire qui ne commence pas par &lt;code&gt;_&lt;/code&gt; sera&#xA;copié tel-quel dans le répertoire &lt;code&gt;_site&lt;/code&gt;. Hugo garde tout le contenu statique&#xA;dans le répertoire &lt;code&gt;static&lt;/code&gt;. Vous devez donc déplacer tout ce type de contenu&#xA;là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xA;    ▾ images/&#xA;        logo.png&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

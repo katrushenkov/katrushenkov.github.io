@@ -4,7 +4,7 @@
     <title>Hugo on Personal blog</title>
     <link>https://katrushenkov.github.io/categories/hugo/</link>
     <description>Recent content in Hugo on Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</guid>
-      <description>Introduction Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&#xA;Nous allons commencer par créer un nouveau site avec un modèle très basique.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;&#xA;&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Débuter avec Hugo</title>

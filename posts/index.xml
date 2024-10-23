@@ -15,8 +15,9 @@
             <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2014/09/creating-a-new-theme-ksm2/</guid>
-            <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+            <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
@@ -831,9 +832,20 @@ $ vi themes/zafta/layouts/_default/single.html
             <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</guid>
-            <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+            <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;should become&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
 <p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
 With Jekyll, something that looked like</p>
@@ -976,7 +988,10 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             <pubDate>Sun, 22 Jan 2023 20:38:46 +1000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2023/01/testnewarticle2222/</guid>
-            <description>new bbbbbbb aaaaa fdsafdsf</description>
+            <description>&lt;h1 id=&#34;new&#34;&gt;new&lt;/h1&gt;
+&lt;h1 id=&#34;bbbbbbb&#34;&gt;bbbbbbb&lt;/h1&gt;
+&lt;h1 id=&#34;aaaaa&#34;&gt;aaaaa&lt;/h1&gt;
+&lt;p&gt;fdsafdsf&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h1 id="new">new</h1>
 <h1 id="bbbbbbb">bbbbbbb</h1>
 <h1 id="aaaaa">aaaaa</h1>
@@ -990,8 +1005,9 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
             <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2023/01/check-2023/</guid>
-            <description>Introduction Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.
-Nous allons commencer par créer un nouveau site avec un modèle très basique.</description>
+            <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;
+&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&rsquo;utilisation de CSS pour styliser votre thème.</p>
 <p>Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.</p>
@@ -1849,7 +1865,11 @@ $ vi themes/zafta/layouts/_default/single.html
             <pubDate>Mon, 06 Jun 2022 21:59:52 +1000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</guid>
-            <description>Test 1 Test 2 [ ] - list 1 [ ] - list 2 [x] - list 3</description>
+            <description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;
+&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;
+&lt;p&gt;[ ] - list 1
+[ ] - list 2
+[x] - list 3&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h1 id="test-1">Test 1</h1>
 <h2 id="test-2">Test 2</h2>
 <p>[ ] - list 1
@@ -1864,7 +1884,8 @@ $ vi themes/zafta/layouts/_default/single.html
             <pubDate>Sun, 28 Mar 2021 11:01:38 +1000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2021/03/20210320-post/</guid>
-            <description>Test 4 Test 5 </description>
+            <description>&lt;h2 id=&#34;test-4&#34;&gt;Test 4&lt;/h2&gt;
+&lt;h3 id=&#34;test-5&#34;&gt;Test 5&lt;/h3&gt;</description>
             <content type="html"><![CDATA[<h2 id="test-4">Test 4</h2>
 <h3 id="test-5">Test 5</h3>
 ]]></content>
@@ -1876,7 +1897,8 @@ $ vi themes/zafta/layouts/_default/single.html
             <pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2021/02/bash/</guid>
-            <description>test 1 test 2 </description>
+            <description>&lt;h2 id=&#34;test-1&#34;&gt;test 1&lt;/h2&gt;
+&lt;h3 id=&#34;test-2&#34;&gt;test 2&lt;/h3&gt;</description>
             <content type="html"><![CDATA[<h2 id="test-1">test 1</h2>
 <h3 id="test-2">test 2</h3>
 ]]></content>
@@ -1898,8 +1920,9 @@ $ vi themes/zafta/layouts/_default/single.html
             <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</guid>
-            <description>Introduction Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.
-Nous allons commencer par créer un nouveau site avec un modèle très basique.</description>
+            <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.&lt;/p&gt;
+&lt;p&gt;Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&rsquo;utilisation de CSS pour styliser votre thème.</p>
 <p>Nous allons commencer par créer un nouveau site avec un modèle très basique. Ensuite, nous ajouterons quelques pages et des publications. Avec de petites variations, vous pourrez créer de nombreux types de sites web.</p>
@@ -2757,8 +2780,14 @@ $ vi themes/zafta/layouts/_default/single.html
             <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2014/04/hugo-template-primer/</guid>
-            <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
+            <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in Go templates.&lt;/p&gt;
+&lt;p&gt;This document is a brief primer on using Go templates. The &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;Go docs&lt;/a&gt;
+provide more details.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
@@ -3083,12 +3112,22 @@ créativité fluide sans avoir à attendre de longues compilations.</p>
             <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2014/04/getting-started-with-hugo/</guid>
-            <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
+            <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo releases&lt;/a&gt; and download the
+appropriate version for your OS and architecture.&lt;/p&gt;
+&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Install Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
+&lt;p&gt;Hugo has its own example site which happens to also be the documentation site
+you are reading right now.&lt;/p&gt;
+&lt;p&gt;Follow the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;Hugo repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go into the repo&lt;/li&gt;
+&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
+&lt;li&gt;Open your browser to http://localhost:1313&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
 <p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
 appropriate version for your OS and architecture.</p>
@@ -3152,8 +3191,14 @@ Having nearly instant feedback enables you to have your creativity flow without 
             <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
             
             <guid>https://katrushenkov.github.io/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</guid>
-            <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
-Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
+            <description>&lt;p&gt;Hugo utilise l&amp;rsquo;excellente librairie &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; pour
+son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit
+nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour
+créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de
+modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de
+similitudes avec les modèles go.&lt;/p&gt;
+&lt;p&gt;Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates. La
+&lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;documentation go&lt;/a&gt; fourni plus de détails.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>Hugo utilise l&rsquo;excellente librairie <a href="http://golang.org/">go</a> <a href="http://golang.org/pkg/html/template/">html/template</a> pour
 son moteur de modèles. c&rsquo;est un moteur extrêmement léger qui offre un très petit
 nombre de fonctions logiques. À notre expérience, c&rsquo;est juste ce qu&rsquo;il faut pour

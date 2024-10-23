@@ -4,62 +4,62 @@
     <title>Tags on Personal blog</title>
     <link>https://katrushenkov.github.io/tags/</link>
     <description>Recent content in Tags on Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 22 Jan 2023 21:59:52 +1000</lastBuildDate>
     <atom:link href="https://katrushenkov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
+      <title>Test</title>
       <link>https://katrushenkov.github.io/tags/test/</link>
       <pubDate>Sun, 22 Jan 2023 21:59:52 +1000</pubDate>
       <guid>https://katrushenkov.github.io/tags/test/</guid>
       <description></description>
     </item>
     <item>
-      <title>untagged</title>
+      <title>Untagged</title>
       <link>https://katrushenkov.github.io/tags/untagged/</link>
       <pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
       <guid>https://katrushenkov.github.io/tags/untagged/</guid>
       <description></description>
     </item>
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://katrushenkov.github.io/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/tags/development/</guid>
       <description></description>
     </item>
     <item>
-      <title>go</title>
+      <title>Go</title>
       <link>https://katrushenkov.github.io/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/tags/go/</guid>
       <description></description>
     </item>
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://katrushenkov.github.io/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/tags/golang/</guid>
       <description></description>
     </item>
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://katrushenkov.github.io/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
-      <title>templates</title>
+      <title>Templates</title>
       <link>https://katrushenkov.github.io/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/tags/templates/</guid>
       <description></description>
     </item>
     <item>
-      <title>themes</title>
+      <title>Themes</title>
       <link>https://katrushenkov.github.io/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://katrushenkov.github.io/tags/themes/</guid>

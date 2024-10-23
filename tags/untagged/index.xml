@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>untagged on Personal blog</title>
+    <title>Untagged on Personal blog</title>
     <link>https://katrushenkov.github.io/tags/untagged/</link>
-    <description>Recent content in untagged on Personal blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Untagged on Personal blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 04 Feb 2021 20:33:05 +1000</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://katrushenkov.github.io/posts/2021/02/bash/</link>
       <pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
       <guid>https://katrushenkov.github.io/posts/2021/02/bash/</guid>
-      <description>test 1 test 2 </description>
+      <description>&lt;h2 id=&#34;test-1&#34;&gt;test 1&lt;/h2&gt;&#xA;&lt;h3 id=&#34;test-2&#34;&gt;test 2&lt;/h3&gt;</description>
     </item>
     <item>
       <title>First Post</title>

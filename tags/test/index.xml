@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Test on Personal blog</title>
+		<link>https://katrushenkov.github.io/tags/test/</link>
+		<description>Recent content in Test on Personal blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		
+		
+			<lastBuildDate>Wed, 23 Oct 2024 22:42:01 +1000</lastBuildDate>
+		
+			<atom:link href="https://katrushenkov.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>20241024 Template</title>
+				<link>https://katrushenkov.github.io/blog/20241024-template/</link>
+				<pubDate>Wed, 23 Oct 2024 22:42:01 +1000</pubDate>
+				<guid>https://katrushenkov.github.io/blog/20241024-template/</guid>
+				<description>&lt;p&gt;sadfadsf&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>20220606 Test Port</title>
+				<link>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</link>
+				<pubDate>Mon, 06 Jun 2022 21:59:52 +1000</pubDate>
+				<guid>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</guid>
+				<description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>20220508 Test Port</title>
+				<link>https://katrushenkov.github.io/blog/20210101-happy-new-year/</link>
+				<pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
+				<guid>https://katrushenkov.github.io/blog/20210101-happy-new-year/</guid>
+				<description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;&#xA;&lt;p&gt;Test post 8.05.2022&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>20220508 Test Port</title>
+				<link>https://katrushenkov.github.io/blog/20220508-test-port/</link>
+				<pubDate>Sun, 08 May 2022 21:59:52 +1000</pubDate>
+				<guid>https://katrushenkov.github.io/blog/20220508-test-port/</guid>
+				<description>&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;test-2&#34;&gt;Test 2&lt;/h2&gt;&#xA;&lt;p&gt;[ ] - list 1&#xA;[ ] - list 2&#xA;[x] - list 3&lt;/p&gt;&#xA;&lt;p&gt;Test post 8.05.2022&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

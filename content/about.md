@@ -8,7 +8,7 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Sergey Katrushenkov"
 +++
 
-Hugo22 is the **world’s fastest framework for building websites**. It is written in Go.
+Hugo is the **world’s fastest framework for building websites**.
 
 It makes use of a variety of open source projects including:
 

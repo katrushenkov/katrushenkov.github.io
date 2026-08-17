@@ -1,0 +1,22 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on Personal blog</title>
+        <link>https://katrushenkov.github.io/posts/linux/</link>
+        <description>Recent content in Linux on Personal blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+        <atom:link href="https://katrushenkov.github.io/posts/linux/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Bash</title>
+            <link>https://katrushenkov.github.io/posts/linux/bash/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>https://katrushenkov.github.io/posts/linux/bash/</guid>
+            <description></description>
+            <content type="html"><![CDATA[]]></content>
+        </item>
+        
+    </channel>
+</rss>

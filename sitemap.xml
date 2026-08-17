@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://katrushenkov.github.io/posts/2014/09/creating-a-new-theme-ksm2/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://katrushenkov.github.io/blog/20241024-template/</loc>
     <lastmod>2024-10-23T22:42:01+10:00</lastmod>
   </url><url>
@@ -32,22 +26,19 @@
     <loc>https://katrushenkov.github.io/tags/testing-tag/</loc>
     <lastmod>2023-01-22T21:59:52+10:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/</loc>
-    <lastmod>2023-01-22T20:38:46+10:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2023/01/testnewarticle2222/</loc>
-    <lastmod>2023-01-22T20:38:46+10:00</lastmod>
-  </url><url>
     <loc>https://katrushenkov.github.io/categories/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/2023/01/check-2023/</loc>
+    <loc>https://katrushenkov.github.io/posts/20230101-new-year/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://katrushenkov.github.io/categories/hugo-ksm/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/2022/06/20220606-test-port/</loc>
+    <loc>https://katrushenkov.github.io/posts/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://katrushenkov.github.io/posts/20220606-test-port/</loc>
     <lastmod>2022-06-06T21:59:52+10:00</lastmod>
   </url><url>
     <loc>https://katrushenkov.github.io/blog/20210101-happy-new-year/</loc>
@@ -56,25 +47,7 @@
     <loc>https://katrushenkov.github.io/blog/20220508-test-port/</loc>
     <lastmod>2022-05-08T21:59:52+10:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/blog/testpost/</loc>
-    <lastmod>2021-03-28T11:08:33+10:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2021/03/20210320-post/</loc>
-    <lastmod>2021-03-28T11:01:38+10:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2021/02/bash/</loc>
-    <lastmod>2021-02-04T20:33:05+10:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/tags/untagged/</loc>
-    <lastmod>2021-02-04T20:33:05+10:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2020/11/first-post/</loc>
-    <lastmod>2020-11-27T19:59:35+10:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me-ksm/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/categories/hugo/</loc>
+    <loc>https://katrushenkov.github.io/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://katrushenkov.github.io/series/hugo-101/</loc>
@@ -86,10 +59,7 @@
     <loc>https://katrushenkov.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/04/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/04/d%C3%A9buter-avec-hugo/</loc>
+    <loc>https://katrushenkov.github.io/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://katrushenkov.github.io/categories/development/</loc>
@@ -98,10 +68,7 @@
     <loc>https://katrushenkov.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/04/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://katrushenkov.github.io/categories/go/</loc>
+    <loc>https://katrushenkov.github.io/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://katrushenkov.github.io/tags/go/</loc>
@@ -116,19 +83,17 @@
     <loc>https://katrushenkov.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://katrushenkov.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://katrushenkov.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/categories/jekyll/</loc>
+    <loc>https://katrushenkov.github.io/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://katrushenkov.github.io/posts/2014/03/migrer-vers-hugo-depuis-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://katrushenkov.github.io/posts/linux/bash/</loc>
+  </url><url>
+    <loc>https://katrushenkov.github.io/posts/linux/</loc>
   </url>
 </urlset>

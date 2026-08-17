@@ -1,10 +1,7 @@
 baseURL = "https://katrushenkov.github.io"
 title   = "Personal blog"
-languageCode = "en-us"
-theme = "hello-friend-ng"
-
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+locale  = "en-us"
+theme   = "hello-friend-ng"
 
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
@@ -17,16 +14,19 @@ publishDir   = "public"
 buildDrafts  = false
 buildFuture  = false
 buildExpired = false
-canonifyURLs = true
+
+# Strip accents from generated URLs, so "Débuter avec Hugo" -> /debuter-avec-hugo/
+# instead of a path with non-ASCII characters.
+removePathAccents = true
 
 enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
 disableHugoGeneratorInject = false
+
+# To switch off a whole page kind, list it here, e.g.
+# disableKinds = ["taxonomy", "term"]
 
 [pagination]
   disableAliases = false
@@ -43,16 +43,58 @@ disableHugoGeneratorInject = false
 #   [services.googleAnalytics]
 #     ID = 'G-MEASUREMENT_ID'
 
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
-[blackfriday]
-  hrefTargetBlank = true
+# No [permalinks] block on purpose.
+#
+# Hugo's default URL is the content file path, which is exactly what we want:
+#   content/posts/20220606-test-port.md        -> /posts/20220606-test-port/
+#   content/blog/20241024-template.md          -> /blog/20241024-template/
+#   content/posts/linux/bash/20200104-test.md  -> /posts/linux/bash/20200104-test/
+#
+# Date lives in the file name, and nested folders keep their hierarchy.
+# A page can still override its own URL with `slug` or `url` in front matter.
 
 [taxonomies]
   tag      = "tags"
   category = "categories"
   series   = "series"
+
+[markup]
+  # Replaces the removed [blackfriday] block. Blackfriday was dropped in Hugo 0.60;
+  # Goldmark handles Markdown now.
+  [markup.goldmark.renderer]
+    # Set to true if you need to write raw HTML inside Markdown.
+    unsafe = false
+  [markup.highlight]
+    # Replaces the legacy PygmentsCodeFences / PygmentsStyle keys.
+    style       = "monokai"
+    codeFences  = true
+    guessSyntax = true
+    noClasses   = true
+    lineNos     = false
+  [markup.tableOfContents]
+    # Content headings should start at "##" — "#" is already rendered as the post title.
+    startLevel = 2
+    endLevel   = 4
+
+# Powers "Related posts". Hugo scores pages by shared tags/series/date;
+# rendered by layouts/partials/related.html.
+[related]
+  includeNewer = true
+  threshold    = 80
+  toLower      = true
+
+  [[related.indices]]
+    name   = "tags"
+    weight = 100
+  [[related.indices]]
+    name   = "series"
+    weight = 80
+  [[related.indices]]
+    name   = "categories"
+    weight = 60
+  [[related.indices]]
+    name   = "date"
+    weight = 10
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -81,13 +123,17 @@ disableHugoGeneratorInject = false
   #
   disableReadOtherPosts = false
 
+  # Heading shown above the previous/next post buttons.
+  #
+  readOtherPosts = "Read other posts"
+
   # Enable theme toggle
   #
   # This options enables the theme toggle for the theme.
   # Per default, this option is off.
   # The theme is respecting the prefers-color-scheme of the operating system.
   # With this option on, the page user is able to set the scheme he wants.
-  enableThemeToggle = false
+  enableThemeToggle = true
 
   # Sharing buttons
   #
@@ -265,16 +311,50 @@ disableHugoGeneratorInject = false
 #  [languages.fr.params]
 #    subtitle  = "Hello Friend NG Theme"
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Menu
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# IMPORTANT: this theme sorts the menu by `identifier`, not by `weight`
+# (see themes/hello-friend-ng/layouts/partials/menu.html: `sort .Site.Menus.main ".Identifier"`).
+# So `weight` does nothing here — control the order with the numeric prefix
+# in `identifier`. Numbers are spaced by 10 to leave room for new entries.
+#
+# Entries with a `parent` become a dropdown submenu.
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
+    identifier = "10-posts"
     name       = "Posts"
-    url        = "posts/"
+    url        = "/posts/"
+
   [[menu.main]]
-    identifier = "blog"
+    identifier = "20-blog"
     name       = "Blog"
-    url        = "blog/"
+    url        = "/blog/"
+
+  [[menu.main]]
+    identifier = "80-tags"
+    name       = "Tags"
+    url        = "/tags/"
+
+  [[menu.main]]
+    identifier = "90-about"
+    name       = "About"
+    url        = "/about/"
+
+# Example of a dropdown submenu — uncomment and adapt when you add more sections:
+#
+#  [[menu.main]]
+#    identifier = "30-topics"
+#    name       = "Topics"
+#
+#  [[menu.main]]
+#    identifier = "30-topics-linux"
+#    parent     = "30-topics"
+#    name       = "Linux"
+#    url        = "/posts/linux/"
+#
+#  [[menu.main]]
+#    identifier = "30-topics-series"
+#    parent     = "30-topics"
+#    name       = "Series"
+#    url        = "/series/"

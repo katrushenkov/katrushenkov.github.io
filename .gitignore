@@ -1,0 +1,9 @@
+# Build output — produced by CI, never committed.
+public/
+
+# Hugo's asset cache. Regenerated on every build; CI installs hugo-extended,
+# so there is no reason to track it.
+resources/_gen/
+
+# Hugo build lock
+.hugo_build.lock

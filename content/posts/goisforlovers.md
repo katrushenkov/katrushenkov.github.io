@@ -1,7 +1,6 @@
 +++
 title = "(Hu)go Template Primer"
-description = ""
-type = ["posts","post"]
+aliases = ["/posts/2014/04/hugo-template-primer/"]
 tags = [
     "go",
     "golang",

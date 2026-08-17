@@ -1,0 +1,14 @@
+{{- /*
+  Replacement for the old `[blackfriday] hrefTargetBlank = true` setting, which
+  stopped doing anything when Hugo dropped Blackfriday in 0.60. Goldmark has no
+  equivalent config key — a link render hook is the supported way.
+
+  External links open in a new tab and get rel="noopener noreferrer";
+  internal links are left alone.
+*/ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $external := and $u.Host (ne $u.Host (urls.Parse .Page.Site.BaseURL).Host) -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end }}
+  {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
+>{{ .Text | safeHTML }}</a>

@@ -2,7 +2,7 @@
 title = "About"
 date = "2014-04-09"
 description = "about this site"
-slug = "about time"
+slug = "about"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "Sergey Katrushenkov"

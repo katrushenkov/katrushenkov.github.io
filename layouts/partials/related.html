@@ -1,0 +1,31 @@
+{{- /*
+  "Related posts" block. Scoring is configured by the [related] section in
+  config.toml (shared tags / series / categories / date).
+  Called from layouts/posts/single.html.
+*/ -}}
+{{- $related := site.RegularPages.Related . | first 5 -}}
+{{- with $related }}
+  <div class="pagination">
+    <div class="pagination__title">
+      <span class="pagination__title-h">Related posts</span>
+      <hr />
+    </div>
+
+    <ul class="posts-list">
+      {{- range . }}
+        <li class="post-item">
+          <a href="{{ .Permalink }}" class="post-item-inner">
+            <span class="post-title">{{ .Title }}</span>
+            <span class="post-day">
+              {{- if site.Params.dateformShort }}
+                {{ time.Format site.Params.dateformShort .Date }}
+              {{- else }}
+                {{ time.Format "Jan 2" .Date }}
+              {{- end }}
+            </span>
+          </a>
+        </li>
+      {{- end }}
+    </ul>
+  </div>
+{{- end }}

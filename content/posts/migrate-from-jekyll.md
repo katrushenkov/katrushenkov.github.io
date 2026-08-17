@@ -1,17 +1,12 @@
 ---
+title: Migrate to Hugo from Jekyll
+date: 2014-03-10
 author:
   name: "Hugo Authors"
-date: 2014-03-10
-linktitle: Migrating from Jekyll
-title: Migrate to Hugo from Jekyll
-type:
-- post
-- posts
-weight: 10
 series:
 - Hugo 101
 aliases:
-- /blog/migrate-from-jekyll/
+- /posts/2014/03/migrate-to-hugo-from-jekyll/
 ---
 
 ## Move static content to `static`

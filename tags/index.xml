@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Personal blog</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://katrushenkov.github.io/tags/</link>
 		<description>Recent content in Tags on Personal blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -14,75 +14,75 @@
 		
 			<lastBuildDate>Wed, 23 Oct 2024 22:42:01 +1000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://katrushenkov.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Test</title>
-				<link>http://localhost:1313/tags/test/</link>
+				<link>https://katrushenkov.github.io/tags/test/</link>
 				<pubDate>Wed, 23 Oct 2024 22:42:01 +1000</pubDate>
-				<guid>http://localhost:1313/tags/test/</guid>
+				<guid>https://katrushenkov.github.io/tags/test/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Misc</title>
-				<link>http://localhost:1313/tags/misc/</link>
+				<link>https://katrushenkov.github.io/tags/misc/</link>
 				<pubDate>Sun, 22 Jan 2023 21:59:52 +1000</pubDate>
-				<guid>http://localhost:1313/tags/misc/</guid>
+				<guid>https://katrushenkov.github.io/tags/misc/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Testing Tag</title>
-				<link>http://localhost:1313/tags/testing-tag/</link>
+				<link>https://katrushenkov.github.io/tags/testing-tag/</link>
 				<pubDate>Sun, 22 Jan 2023 21:59:52 +1000</pubDate>
-				<guid>http://localhost:1313/tags/testing-tag/</guid>
+				<guid>https://katrushenkov.github.io/tags/testing-tag/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Untagged</title>
-				<link>http://localhost:1313/tags/untagged/</link>
+				<link>https://katrushenkov.github.io/tags/untagged/</link>
 				<pubDate>Thu, 04 Feb 2021 20:33:05 +1000</pubDate>
-				<guid>http://localhost:1313/tags/untagged/</guid>
+				<guid>https://katrushenkov.github.io/tags/untagged/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Development</title>
-				<link>http://localhost:1313/tags/development/</link>
+				<link>https://katrushenkov.github.io/tags/development/</link>
 				<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/development/</guid>
+				<guid>https://katrushenkov.github.io/tags/development/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Go</title>
-				<link>http://localhost:1313/tags/go/</link>
+				<link>https://katrushenkov.github.io/tags/go/</link>
 				<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/go/</guid>
+				<guid>https://katrushenkov.github.io/tags/go/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Golang</title>
-				<link>http://localhost:1313/tags/golang/</link>
+				<link>https://katrushenkov.github.io/tags/golang/</link>
 				<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/golang/</guid>
+				<guid>https://katrushenkov.github.io/tags/golang/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hugo</title>
-				<link>http://localhost:1313/tags/hugo/</link>
+				<link>https://katrushenkov.github.io/tags/hugo/</link>
 				<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/hugo/</guid>
+				<guid>https://katrushenkov.github.io/tags/hugo/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Templates</title>
-				<link>http://localhost:1313/tags/templates/</link>
+				<link>https://katrushenkov.github.io/tags/templates/</link>
 				<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/templates/</guid>
+				<guid>https://katrushenkov.github.io/tags/templates/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Themes</title>
-				<link>http://localhost:1313/tags/themes/</link>
+				<link>https://katrushenkov.github.io/tags/themes/</link>
 				<pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/themes/</guid>
+				<guid>https://katrushenkov.github.io/tags/themes/</guid>
 				<description></description>
 			</item>
 	</channel>

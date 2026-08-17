@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Series on Personal blog</title>
-		<link>https://katrushenkov.github.io/series/</link>
+		<link>http://localhost:1313/series/</link>
 		<description>Recent content in Series on Personal blog</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -14,12 +14,12 @@
 		
 			<lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://katrushenkov.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Hugo 101</title>
-				<link>https://katrushenkov.github.io/series/hugo-101/</link>
+				<link>http://localhost:1313/series/hugo-101/</link>
 				<pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-				<guid>https://katrushenkov.github.io/series/hugo-101/</guid>
+				<guid>http://localhost:1313/series/hugo-101/</guid>
 				<description></description>
 			</item>
 	</channel>

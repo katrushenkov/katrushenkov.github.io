@@ -1,0 +1,56 @@
+# katrushenkov.github.io
+
+Личный блог на [Hugo](https://gohugo.io) с темой
+[hello-friend-ng](https://github.com/rhazdon/hugo-theme-hello-friend-ng)
+(подключена git-сабмодулем в `themes/hello-friend-ng`).
+
+Сайт: <https://katrushenkov.github.io/>
+
+## Начало работы
+
+```bash
+git clone --recurse-submodules git@github.com:katrushenkov/katrushenkov.github.io.git
+cd katrushenkov.github.io
+```
+
+Если репозиторий уже склонирован без `--recurse-submodules`:
+
+```bash
+git submodule update --init --recursive
+```
+
+Нужен **Hugo extended** той же версии, что в CI — см. `HUGO_VERSION`
+в `.github/workflows/deploy.yml`.
+
+## Локальный просмотр
+
+```bash
+hugo server        # http://localhost:1313, черновики скрыты
+hugo server -D     # вместе с черновиками (draft: true)
+```
+
+## Новый пост
+
+```bash
+hugo new content posts/YYYYMMDD-slug.md   # раздел Posts
+hugo new content blog/YYYYMMDD-slug.md    # раздел Blog
+```
+
+Шаблоны front matter лежат в `archetypes/`. URL поста повторяет путь файла:
+`content/posts/linux/20210320-post.md` → `/posts/linux/20210320-post/`.
+
+## Деплой
+
+Пуш в `main` запускает GitHub Actions (`.github/workflows/deploy.yml`):
+сборка `hugo --minify` и публикация в GitHub Pages. Ручной перезапуск —
+вкладка Actions → «Deploy Hugo site to Pages» → Run workflow.
+
+`public/` и `resources/_gen/` — результат сборки, в git не хранятся.
+
+## Обновление темы
+
+```bash
+git submodule update --remote themes/hello-friend-ng
+hugo server                       # проверить, что всё выглядит как надо
+git add themes/hello-friend-ng && git commit -m "Update theme"
+```

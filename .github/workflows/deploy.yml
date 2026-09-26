@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Pinned to the version used locally. Bump deliberately.
-      HUGO_VERSION: 0.164.0
+      HUGO_VERSION: 0.166.0
     steps:
       - name: Install Hugo CLI
         run: |

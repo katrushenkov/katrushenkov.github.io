@@ -106,7 +106,9 @@ disableHugoGeneratorInject = false
   #
   description = "Personal blog"
   keywords = ""
-  images = [""]
+  # Default preview image for social cards (og:image / twitter:image).
+  # A page can override it with `images = [...]` in its front matter.
+  images = ["og.png"]
 
   # Home subtitle of the index page.
   #
@@ -141,7 +143,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Global language menu
   #
@@ -275,8 +277,8 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   #
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/katrushenkov"
+    name = "X"
+    url  = "https://x.com/katrushenkov"
 
   [[params.social]]
     name = "email"

@@ -34,7 +34,7 @@ jobs:
           sudo dpkg -i "${{ runner.temp }}/hugo.deb"
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # The theme is a git submodule — without this the build has no layouts.
           submodules: recursive
@@ -52,7 +52,7 @@ jobs:
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 

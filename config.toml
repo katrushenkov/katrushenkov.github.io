@@ -177,7 +177,8 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content.
   #
   [params.footer]
-    trademark = 2026
+    # Shows "© <build year>" — see layouts/partials/footer.html.
+    trademark = true
     rss = false
     copyright = false
     author = true
@@ -282,7 +283,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:katrushenkov@_gmail_.com"
+    url  = "mailto:katrushenkov@duck.com"
 
   [[params.social]]
     name = "github"

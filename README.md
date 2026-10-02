@@ -22,6 +22,11 @@ git submodule update --init --recursive
 Нужен **Hugo extended** той же версии, что в CI — см. `HUGO_VERSION`
 в `.github/workflows/deploy.yml`.
 
+Стили темы компилируются **Dart Sass** — исполняемый файл `sass` должен быть
+в `PATH` (версия — `DART_SASS_VERSION` в том же workflow). Например, на Arch:
+`pacman -S dart-sass`, или скачать архив с
+[релизов](https://github.com/sass/dart-sass/releases) и добавить в `PATH`.
+
 ## Локальный просмотр
 
 ```bash
@@ -53,4 +58,12 @@ hugo new content blog/YYYYMMDD-slug.md    # раздел Blog
 git submodule update --remote themes/hello-friend-ng
 hugo server                       # проверить, что всё выглядит как надо
 git add themes/hello-friend-ng && git commit -m "Update theme"
+```
+
+`layouts/partials/head.html` — копия партиала темы, отличающаяся одной строкой
+(`"transpiler" "dartsass"` вместо `"libsass"`). При обновлении темы сверьте его
+с оригиналом:
+
+```bash
+diff themes/hello-friend-ng/layouts/partials/head.html layouts/partials/head.html
 ```

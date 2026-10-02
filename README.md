@@ -67,3 +67,11 @@ git add themes/hello-friend-ng && git commit -m "Update theme"
 ```bash
 diff themes/hello-friend-ng/layouts/partials/head.html layouts/partials/head.html
 ```
+
+## Шрифты
+
+IBM Plex (Serif — текст статей, Sans — заголовки, даты и меню, Mono — код),
+лицензия SIL OFL. Файлы лежат в `static/fonts/ibm-plex/` (только кириллица и
+латиница), правила — в `static/css/fonts.css`, подключённом через
+`params.customCSS` в `config.toml`. Он загружается после CSS темы и
+перекрывает её шрифты, поэтому тему править не нужно.
